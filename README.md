@@ -1,4 +1,4 @@
-# React production boilerplate
+# Musicale Music Player
 
 ## Setup Instructions
 
