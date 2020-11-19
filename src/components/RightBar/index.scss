@@ -1,0 +1,66 @@
+.rightBar {
+  height: 100%;
+  width: 285px;
+  position: fixed;
+  z-index: 1;
+  top: 80px;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.pro {
+  margin-left: 20px;
+  width: 60px;
+  height: 32px;
+  background: #ff808b 0% 0% no-repeat padding-box;
+  border: none;
+  border-radius: 16px;
+  opacity: 1;
+  color: white;
+}
+.barHeads {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.creator {
+  font-size: 16px;
+}
+.loc {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.fields {
+  width: 225px;
+  height: 56px;
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.iconbg {
+  width: 48px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 50%;
+}
+.blue {
+  background-color: #4c4cab;
+}
+.rose {
+  background-color: #ff808b;
+}
+.green {
+  background-color: #50d757;
+}
+.ico {
+  width: 24px;
+  height: 20px;
+  align-items: center;
+}

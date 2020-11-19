@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  width: 1440px;
+  height: fit-content;
+  background: #f5f5fb 0% 0% no-repeat padding-box;
+  opacity: 1;
+  overflow: hidden;
+}
+* {
+  font-family: Roboto, sans-serif;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../../assets/fonts/Roboto-Regular.ttf");
+
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,40 @@
+.mainContent {
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  height: 80vh;
+  overflow-x: hidden;
+}
+.content-heading {
+  font-size: 40px;
+}
+.radio-cards-main {
+  top: 239px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.radio-cards {
+  margin: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+.cardbg {
+  width: 322px;
+  height: 202px;
+  background: #4c4cab 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 12px #0000001a;
+  border-radius: 8px;
+  opacity: 1;
+  justify-content: center;
+  display: flex;
+  align-items: flex-end;
+}
+.card-head {
+  font-size: 30px;
+  color: #ffffff;
+}
+.card-title {
+  font-size: 20px;
+}

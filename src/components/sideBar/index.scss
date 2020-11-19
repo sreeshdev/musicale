@@ -1,0 +1,90 @@
+.SideBar {
+  width: 270px;
+  height: 100vh;
+  background-color: #4c4cab;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.SideBar:hover {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.SideBar:hover::-webkit-scrollbar {
+  width: 10px;
+}
+.SideBar:hover::-webkit-scrollbar-track {
+  background: #5c5cd1;
+}
+.SideBar:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 255, 0.521);
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid rgba(255, 166, 0, 0.452);
+}
+.MainLogo {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lg {
+  width: 214px;
+  height: 53px;
+}
+
+.MainSet {
+  margin-top: 40px;
+}
+.indiv {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  height: 48px;
+  width: 270px;
+  cursor: pointer;
+}
+.icon {
+  width: 20px;
+  height: 22px;
+  margin-left: 35px;
+  margin-right: 25px;
+  opacity: 60%;
+}
+.headings {
+  font-size: 16px;
+  color: #ffffff;
+  opacity: 60%;
+  //   font-family: url("../../../assets/fonts/Roboto-Regular.ttf");
+}
+.Mainheading {
+  margin: 30px;
+  color: #ffffff;
+}
+
+.addPlaylist {
+  margin-top: 60px;
+  background: transparent
+    linear-gradient(180deg, rgba(19, 18, 55, 0) 0%, rgba(19, 18, 55, 1) 100%) 0%
+    0% no-repeat padding-box;
+}
+.playlist {
+  color: #ffffff;
+}
+.indiv1 {
+  height: 80px;
+  display: flex;
+  padding-top: 20px;
+  cursor: pointer;
+}
+.icon1 {
+  width: 20px;
+  height: 22px;
+  margin-left: 35px;
+  margin-right: 25px;
+}
+.sidehead {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  height: 48px;
+  width: 270px;
+}

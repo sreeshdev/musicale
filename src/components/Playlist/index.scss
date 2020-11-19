@@ -1,0 +1,115 @@
+.Playlist {
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  //   margin-left: 280px;
+  //   margin-top: -600px;
+  height: 80vh;
+  overflow-x: hidden;
+  width: 80%;
+}
+.playlist-Head {
+  font-size: 40px;
+}
+.details {
+  display: flex;
+}
+.details > span > p {
+  font-size: 14px;
+}
+.play-name {
+  font-size: 32px;
+}
+.author {
+  margin-top: -20px;
+}
+.artPad {
+  width: 350px;
+  height: 200px;
+  background: transparent linear-gradient(180deg, #13123700 0%, #131237 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 7px;
+  opacity: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+.artPad > h5 {
+  font-size: 32px;
+  color: white;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.buttons > button {
+  width: 160px;
+  height: 48px;
+  background: #4b49ae 0% 0% no-repeat padding-box;
+  border-radius: 24px;
+  opacity: 1;
+  margin-right: 50px;
+  color: white;
+  cursor: pointer;
+}
+.fav {
+  margin-right: 50px;
+  cursor: pointer;
+}
+.list {
+  margin: 20px;
+  width: 1056px;
+  height: 80px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 12px #0000001a;
+  border-radius: 8px;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Sno {
+  min-width: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.songFav {
+  width: 22px;
+  min-width: 100px;
+  height: 20px;
+  margin-right: 20%;
+  cursor: pointer;
+}
+.title {
+  min-width: 200px;
+  //   margin-right: 20%;
+}
+.artist {
+  min-width: 200px;
+  margin-right: 15%;
+}
+.duration {
+  margin-right: 10%;
+}
+.alert-enter {
+  opacity: 0;
+  width: 0px;
+  transform: scale(0.9);
+}
+.alert-enter-active {
+  opacity: 1;
+  width: 285px;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.alert-exit {
+  opacity: 1;
+}
+.alert-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}
