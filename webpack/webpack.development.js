@@ -1,7 +1,7 @@
 const webpack = require("webpack");
 const commonPaths = require("./paths");
 const config = (env) => require("../src/config.json")[env];
-const configLocal = (env) => require("../src/config.local")[env];
+const configLocal = (env) => require("../src/config.local.json")[env];
 
 module.exports = ({ mode, __DEV__ }) => {
   const info = config(mode);
