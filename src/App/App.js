@@ -20,4 +20,4 @@ const App = ({}) => (
   </Provider>
 );
 
-export default App;
+export default hot(App);
